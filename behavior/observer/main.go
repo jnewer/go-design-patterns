@@ -35,7 +35,7 @@ type Reader3 struct {
 	subject *Subject
 }
 
-func (r *Reader3) Reader1Observer(subject *Subject) {
+func (r *Reader3) Reader3Observer(subject *Subject) {
 	r.subject = subject
 	r.subject.Attach(r)
 }
